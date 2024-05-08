@@ -1,0 +1,108 @@
+/* Reset CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #303f9f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #1a237e;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px 0;
+}
+
+/* Secciones */
+.intro-section,
+.services-section,
+.contact-section {
+    margin-bottom: 50px;
+}
+
+section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #303f9f;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #303f9f;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Navegación */
+nav {
+    margin-top: 30px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: #1a237e;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #303f9f;
+}
